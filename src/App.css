@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+.App-wrapper {
+  height: 100%;
+}
+.App-logo2 {
+  float: left;
+  width: 120px;
+  height: 32px;
+  line-height: 32px;
+  margin: 16px 24px 16px 0;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.3);  
+}
+.App-content {
+  border-left: 1px solid #f7f7f7;
+}
